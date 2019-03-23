@@ -1,0 +1,16 @@
+
+<footer>
+    <p> Fecha: <span id = "date"> </span> </p>
+    <p> Hora:  <span id = "hour"> </span> </p>
+
+    <script>
+        var dt = new Date();
+        document.getElementById("date").innerHTML = dt.toLocaleDateString();
+    </script>
+
+    <script>
+        var dt = new Date();
+        document.getElementById("hour").innerHTML = dt.toLocaleTimeString();
+    </script>
+    
+</footer>
